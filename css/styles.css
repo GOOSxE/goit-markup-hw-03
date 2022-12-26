@@ -133,21 +133,21 @@ section {
 /*---------HERO-------- */
 
 .hero {
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 
   text-align: center;
 
   background: var(--navy-blue-color);
 }
+
 .hero .title {
-  display: block;
-  width: 492px;
+  display: inline-block;
+  width: 494px;
   margin-top: 0px;
   margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
 
+  text-align: center;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
@@ -156,11 +156,10 @@ section {
   color: var(--white-color);
 }
 /* ------HERO-BTN------ */
+
 .hero .btn {
-  display: block;
+  display: inline-block;
   padding: 16px 32px;
-  margin-right: auto;
-  margin-left: auto; 
 
   font-family: inherit;
   font-weight: 700;
@@ -328,10 +327,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   margin-bottom: 32px;
 }
 .text-box {
-  padding-left: 16px;;
+  padding-left: 16px;
 }
 .projects-list .title {
   margin-bottom: 8px;
+  margin-left: 16px;
 
   font-weight: 700;
   font-size: 20px;
@@ -342,6 +342,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .projects-list .category {
   margin-bottom: 32px;
+  margin-left: 16px;
 
   font-size: 16px;
   line-height: 1.5;
