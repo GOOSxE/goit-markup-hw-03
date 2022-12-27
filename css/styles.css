@@ -1,6 +1,7 @@
 :root {
   --brand-color: #4D5AE5;
   --navy-blue-color: #2E2F42;
+  --ocean-color: #404BBF;
   --green-success-color: #31D0AA;
   --slate-color: #434455;
   --light-slate-color: #8E8F99;
@@ -30,6 +31,11 @@ h1,h2,h3,h4,h5,h6,p {
 section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .section.no-padding {
   padding-top: 0;
@@ -125,8 +131,8 @@ section {
 
 .navigation .link:hover,
 .navigation .link:hover,
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-list .link:hover,
+.contacts-list .link:focus {
   color: var(--brand-color);
 }
 
@@ -172,6 +178,10 @@ section {
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
+}
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: var(--ocean-color);
 }
 
 /*---------BENEFITS-------- */
